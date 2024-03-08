@@ -14,12 +14,10 @@ public class ShopApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ShopApplication.class, args);
 	}
-
-	@GetMapping("hellow")
-	public static String helloworld(){
-		System.out.println("Hello world!");
-
-		return "Hello world!";
+	@GetMapping("hello")
+	public static String helloWorld(){
+		System.out.println("Hola Mundo");
+		return	"Hello World";
 	}
 
 }
