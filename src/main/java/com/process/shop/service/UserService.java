@@ -1,10 +1,9 @@
 package com.process.shop.service;
 
 import com.process.shop.model.User;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+
 public interface UserService {
 
     User createUser(User user);
